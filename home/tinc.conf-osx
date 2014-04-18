@@ -1,0 +1,4 @@
+Name = osprey
+AddressFamily = ipv4
+Interface = tun0
+ConnectTo = magpie
