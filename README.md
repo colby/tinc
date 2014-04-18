@@ -9,14 +9,14 @@ $ sudo apt-get install tinc
 
 ### OSX
 ```bash
-$ brew install tinc, lzo, tuntap
+$ brew install tinc lzo tuntap
 ```
-Follow the directions of the `brew` caveats of formula.
-You may need to reboot for the tap/tun devices to show up.
+Follow the directions of the `brew` caveats for each formula.
+You may need to reboot your mac for the tap/tun devices to show up.
 
 ## Installation
 Move the contents of this repo to the tinc directory on your system.
 Edit as needed.
 
 ## Issues
-Don't forget to unblock the firewall.
+Don't forget to allow `655/tcp` through the firewall.
