@@ -18,5 +18,9 @@ You may need to reboot your mac for the tap/tun devices to show up.
 Move the contents of this repo to the tinc directory on your system.
 Edit as needed.
 
+```bash
+$ sudo cp /home
+```
+
 ## Issues
 Don't forget to allow `655/tcp` through the firewall.
